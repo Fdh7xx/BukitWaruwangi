@@ -2,25 +2,33 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
+  --foreground: #1A331A; 
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --card : #ffffff
+  --card-foreground: #1A331A;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --primary : #4CAF50;
+  --primary-foreground: #ffffff;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --secondary : #66BB6A
+  --secondary-foreground: #ffffff;
+
+  --muted : #F1F5F1 ,
+  --muted-foreground: #5F7D5F;
+
+  --accent : #81C784 ,
+  --accent-foreground: #ffffff;
+
+  --destructive : #F44336
+
+  --border : #DCE5DC
+
+  --input : #DCE5DC
+
+  --ring : #4CAF50
+
+  ---nature-gradient-start : #57C45B
+  ---nature-gradient-end : #8FD192
+
+  --soft-shadow : #CCD9CC
 }
