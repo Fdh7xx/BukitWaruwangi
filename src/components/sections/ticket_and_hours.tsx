@@ -8,7 +8,7 @@ import ListHour from "../ui/list_hour";
 const TiketAndHours = () =>{
     return (
         <Section>
-            <h2 className="max-w-70 md:max-w-3xl mx-auto text-4xl md:text-5xl text-center font-bold text-(--foreground)">
+            <h2 className="max-w-70 md:max-w-3xl mx-auto text-4xl md:text-5xl text-center font-bold text-(--foreground) ">
                 Harga Tiket & Jam Buka
             </h2>
             <p className="text-lg text-center text-(--muted-foreground) mt-5">
