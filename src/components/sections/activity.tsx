@@ -1,6 +1,9 @@
 import Section from "../layouts/section"
 import CardType1 from "../ui/card_type_1";
 
+// icons
+import { Sunrise, Tent, Footprints, Camera } from "lucide-react";
+
 const Activity = () =>{
     return (
         <Section>
@@ -15,19 +18,19 @@ const Activity = () =>{
                 <CardType1
                     title="Camping"
                     description="Dirikan kemah di bawah bintang-bintang di perbukitan indah kami"
-                />
+                ><Tent className="size-10"/></CardType1>
                 <CardType1
                     title="Sunrise View"
                     description="Saksikan matahari terbit yang mewarnai perbukitan"
-                />
+                ><Sunrise className="size-10"/></CardType1>
                 <CardType1
                     title="Trekking"
                     description="Jelajahi jalur indah melalui Perbukitan yang rimbun"
-                />
+                ><Footprints className="size-10"/></CardType1>
                 <CardType1
                     title="Photo Spots"
                     description="Abadikan Setiap Momen - Momen Yang Indah  "
-                />
+                ><Camera className="size-10"/></CardType1>
             </div>
         </Section>
     );

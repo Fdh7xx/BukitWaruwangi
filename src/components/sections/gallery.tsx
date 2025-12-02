@@ -6,10 +6,6 @@ import CardGallery from "../ui/card_gallery";
 import { galleryType } from "@/types";
 
 const Gallery = ({data} : {data : galleryType[]}) =>{
-
-    console.log(data);
-    
-
     return (
         <Section className="" bg="bg-[#fcfcfc]">
             <FadeUp>

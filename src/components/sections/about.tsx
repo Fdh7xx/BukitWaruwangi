@@ -4,8 +4,8 @@ import Section from "@/components/layouts/section"
 import CardType1 from "../ui/card_type_1";
 
 // icons
-import { LuMountain, LuSunrise } from "react-icons/lu";
-import { IoLocationOutline } from "react-icons/io5";
+import { Mountain, Sunrise, MapPin } from "lucide-react";
+
 
 export default function About (){
     return (
@@ -33,17 +33,17 @@ export default function About (){
                     <CardType1
                         title="Keindahan Alami"
                         description="Perbukitan bergelombang yang ditutupi rumput hijau cerah, dikelilingi oleh alam murni">
-                        <LuMountain className="text-3xl" />
+                        <Mountain className="size-10" />
                     </CardType1>
                     <CardType1
                         title="Lokasi Strategis"
                         description="Mudah dijangkau dari Jakarta dan berada di kawasan Banten yang indah">
-                        <IoLocationOutline className="text-3xl" />
+                        <MapPin className="size-10" />
                     </CardType1>
                     <CardType1
                         title="Aktivitas Luar Ruangan"
                         description="Berkemah, trekking, fotografi, dan lebih banyak petualangan menanti Anda">
-                        <LuSunrise className="text-3xl" />
+                        <Sunrise className="size-10" />
                     </CardType1>
                 </div>
         </Section>

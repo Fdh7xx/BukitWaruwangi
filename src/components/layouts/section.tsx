@@ -7,7 +7,7 @@ type SectionProps = {
 const Section = (props : SectionProps) => {
     return(
         <section className={props.bg}>
-            <div className={`${props.className} max-w-7xl mx-auto py-10 md:py-20 px-5 md:px-10`}>
+            <div className={`${props.className} max-w-7xl mx-auto py-20 px-5 md:px-10`}>
                 {props.children}
             </div>
         </section>
