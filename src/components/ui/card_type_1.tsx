@@ -1,12 +1,7 @@
 import FadeUp from "../animations/fadeup"
+import { cardType1 } from "@/types"
 
-type  CardType1Props = {
-    children? : React.ReactNode
-    title? : string
-    description? : string
-}
-
-const CardType1 = (props : CardType1Props) =>{
+const CardType1 = (props : cardType1) =>{
     return (
         <FadeUp>
             <div className="flex flex-col items-center justify-center gap-2 p-5 bg-white border-2 border-(--border) hover:border-(--secondary) rounded-lg shadow-sm hover:shadow-xl duration-300">

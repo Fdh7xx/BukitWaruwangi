@@ -19,7 +19,7 @@ const Gallery = ({data} : {data : galleryType[]}) =>{
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 mt-10">
                 {data.map((item)=>
-                    <CardGallery key={item.id} img={item.img} title={item.title} description={item.description}/>
+                    <CardGallery key={item.id} id={item.id} img={item.img} title={item.title} description={item.description}/>
                 )}
             </div>
         </Section>

@@ -2,14 +2,9 @@
 import Image from "next/image"
 import FadeUp from "../animations/fadeup"
 import { useState } from "react"
+import { galleryType } from "@/types"
 
-type CardGalleryProps = {
-    img?: string,
-    title?: string
-    description?: string
-}
-
-const CardGallery = (props : CardGalleryProps) =>{
+const CardGallery = (props : galleryType) =>{
 
     const [isHovered, setIsHovered] = useState(false);
     const overlay =  isHovered ? "opacity-100" : "opacity-0";

@@ -1,3 +1,4 @@
+import FadeUp from "../animations/fadeup";
 import Section from "../layouts/section"
 import CardType1 from "../ui/card_type_1";
 
@@ -7,12 +8,14 @@ import { Sunrise, Tent, Footprints, Camera } from "lucide-react";
 const Activity = () =>{
     return (
         <Section>
-            <h2 className="text-center text-(--foreground) text-4xl md:text-5xl font-bold">
-                Berbagai Aktivitas
-            </h2>
-            <p className="text-lg text-center text-(--muted-foreground) mt-5">
-                Ciptakan kenangan tak terlupakan dengan pengalaman ini
-            </p>
+            <FadeUp>
+                <h2 className="text-center text-(--foreground) text-4xl md:text-5xl font-bold">
+                    Berbagai Aktivitas
+                </h2>
+                <p className="text-lg text-center text-(--muted-foreground) mt-5">
+                    Ciptakan kenangan tak terlupakan dengan pengalaman ini
+                </p>
+            </FadeUp>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
                 <CardType1
